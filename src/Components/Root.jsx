@@ -1,10 +1,8 @@
 import { Outlet } from "react-router-dom";
-import Header from "./Header";
 
 const Root = () => {
     return (
-        <div>
-            <Header></Header>
+        <div className="max-w-6xl mx-auto font-poppins">           
             <Outlet></Outlet>
         </div>
     );
